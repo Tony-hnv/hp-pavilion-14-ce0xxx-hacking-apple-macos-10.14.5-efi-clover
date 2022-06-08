@@ -1,0 +1,88 @@
+5:044  0:803  Found UEFI Acpi 2.0 RSDP at 8AFFE014
+5:044  0:000  Saving ACPI tables from RSDP 8AFFE014 to EFI\CLOVER\ACPI\origin ...
+5:044  0:000   8AFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+5:229  0:185    (Xsdt: 8AFBC188, Rsdt: 8AFBC0C4)
+5:229  0:000    8AFBC188: 'XSDT', 'SLIC-MPC', Rev: 1, Len: 300 -> XSDT.aml
+5:234  0:004    8AFBC0C4: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 168 -> RSDT.aml
+5:239  0:004    Tables in Xsdt: 33
+5:239  0:000    0. 8AFEA000: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268 -> FACP.aml
+5:282  0:043        (Dsdt: 8AFC3000, Facs: 8AF54000, XDsdt: 8AFC3000, XFacs: 0)
+5:282  0:000        8AFC3000: 'DSDT', '84BA', Rev: 2, Len: 146022 -> DSDT.aml
+5:348  0:066        8AF54000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+5:352  0:004    1. 8AFFD000: 'UEFI', '84BA', Rev: 1, Len: 566 -> UEFI.aml
+5:356  0:003    2. 8AFFC000: 'UEFI', '84BA', Rev: 1, Len: 66 -> UEFI.aml
+5:362  0:005    3. 8AFFB000: 'IHIS', '84BA', Rev: 1, Len: 56 -> IHIS.aml
+5:365  0:003    4. 8AFF4000: 'SSDT', '84BA', Rev: 1, Len: 26831 -> SSDT-0-84BA.aml
+5:442  0:076    5. 8AFF3000: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85 -> MSDM.aml
+5:447  0:004    6. 8AFEF000: 'SSDT', '84BA', Rev: 2, Len: 12618 -> SSDT-1-84BA.aml
+5:452  0:005    7. 8AFEE000: 'ASF!', '84BA', Rev: 32, Len: 165 -> ASF!.aml
+5:456  0:004    8. 8AFED000: 'ASPT', '84BA', Rev: 7, Len: 52 -> ASPT.aml
+5:461  0:004    9. 8AFEC000: 'BOOT', '84BA', Rev: 1, Len: 40 -> BOOT.aml
+5:466  0:004    10. 8AFEB000: 'DBGP', 'SLIC-MPC', Rev: 1, Len: 52 -> DBGP.aml
+5:470  0:004    11. 8AFE9000: 'HPET', '84BA', Rev: 1, Len: 56 -> HPET.aml
+5:474  0:003    12. 8AFE8000: 'APIC', '84BA', Rev: 3, Len: 300 -> APIC.aml
+5:478  0:003    13. 8AFE7000: 'MCFG', '84BA', Rev: 1, Len: 60 -> MCFG.aml
+5:482  0:003    14. 8AFC2000: 'SSDT', '84BA', Rev: 2, Len: 491 -> SSDT-2-84BA.aml
+5:486  0:003    15. 8AFC1000: 'SSDT', '84BA', Rev: 1, Len: 218 -> SSDT-3-84BA.aml
+5:489  0:003    16. 8AFC0000: 'LPIT', '84BA', Rev: 1, Len: 148 -> LPIT.aml
+5:493  0:003    17. 8AFBF000: 'WSMT', '84BA', Rev: 1, Len: 40 -> WSMT.aml
+5:496  0:003    18. 8AFBE000: 'SSDT', '84BA', Rev: 2, Len: 671 -> SSDT-4-84BA.aml
+5:500  0:003    19. 8AFBD000: 'SSDT', '84BA', Rev: 1, Len: 838 -> SSDT-5-84BA.aml
+5:504  0:003    20. 8AFB8000: 'SSDT', '84BA', Rev: 2, Len: 12290 -> SSDT-6-84BA.aml
+5:507  0:003    21. 8AFB7000: 'SSDT', '84BA', Rev: 2, Len: 1310 -> SSDT-7-84BA.aml
+5:511  0:003    22. 8AFB6000: 'DBGP', 'SLIC-MPC', Rev: 1, Len: 52 -> DBGP.aml
+5:517  0:005    23. 8AFB5000: 'DBG2', '84BA', Rev: 0, Len: 84 -> DBG2.aml
+5:520  0:003    24. 8AFB3000: 'SSDT', '84BA', Rev: 2, Len: 4838 -> SSDT-8-84BA.aml
+5:524  0:003    25. 8AFB1000: 'SSDT', '84BA', Rev: 2, Len: 6062 -> SSDT-9-84BA.aml (Found hidden SSDT 7 pcs)
+5:527  0:003        * 8A712018: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1419  53 53 44 54 8B 05 00 00 02 63 50 6D 52 65 66 00 Internal length = 1419 -> SSDT-x9_0-Cpu0Ist.aml
+5:531  0:003        * 8A710018: 'SSDT', 'ApIst', Rev: 2, Len: 3348  53 53 44 54 14 0D 00 00 02 2A 50 6D 52 65 66 00 Internal length = 3348 -> SSDT-x9_1-ApIst.aml
+5:584  0:052        * 8A711898: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 11 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x9_2-Cpu0Cst.aml
+5:589  0:004        * 8A712898: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 93 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x9_3-ApCst.aml
+5:593  0:004        * 8A712DD8: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 186  53 53 44 54 BA 00 00 00 02 7D 50 6D 52 65 66 00 Internal length = 186 -> SSDT-x9_4-Cpu0Hwp.aml
+5:597  0:004        * 8A88E418: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 80 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x9_5-ApHwp.aml
+5:601  0:003        * 8A711018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1576  53 53 44 54 28 06 00 00 02 85 50 6D 52 65 66 00 Internal length = 1576 -> SSDT-x9_6-HwpLvt.aml
+5:606  0:004  
+5:606  0:000    26. 8AFAD000: 'SSDT', '84BA', Rev: 1, Len: 14894 -> SSDT-10-84BA.aml
+5:610  0:004    27. 8AFA8000: 'SSDT', '84BA', Rev: 2, Len: 20234 -> SSDT-11-84BA.aml
+5:616  0:005    28. 8AFA7000: 'SSDT', '84BA', Rev: 2, Len: 1380 -> SSDT-12-84BA.aml
+5:619  0:003    29. 8AFA6000: 'DMAR', '84BA', Rev: 1, Len: 168 -> DMAR.aml
+5:623  0:003    30. 8AFA5000: 'NHLT', '84BA', Rev: 0, Len: 45 -> NHLT.aml
+5:686  0:062    31. 8AFA4000: 'FPDT', 'SLIC-MPC', Rev: 1, Len: 68 -> FPDT.aml
+5:737  0:051    32. 8AFA3000: 'BGRT', '84BA', Rev: 1, Len: 56 -> BGRT.aml
+5:741  0:004    Tables in Rsdt: 33
+5:741  0:000    0. 8AFEA000: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268
+5:741  0:000        (Dsdt: 8AFC3000, Facs: 8AF54000, XDsdt: 8AFC3000, XFacs: 0)
+5:741  0:000        8AFC3000: 'DSDT', '84BA', Rev: 2, Len: 146022
+5:743  0:001        8AF54000: 'FACS', Ver: 2, Len: 64
+5:743  0:000    1. 8AFFD000: 'UEFI', '84BA', Rev: 1, Len: 566
+5:743  0:000    2. 8AFFC000: 'UEFI', '84BA', Rev: 1, Len: 66
+5:743  0:000    3. 8AFFB000: 'IHIS', '84BA', Rev: 1, Len: 56
+5:743  0:000    4. 8AFF4000: 'SSDT', '84BA', Rev: 1, Len: 26831
+5:743  0:000    5. 8AFF3000: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85
+5:743  0:000    6. 8AFEF000: 'SSDT', '84BA', Rev: 2, Len: 12618
+5:743  0:000    7. 8AFEE000: 'ASF!', '84BA', Rev: 32, Len: 165
+5:743  0:000    8. 8AFED000: 'ASPT', '84BA', Rev: 7, Len: 52
+5:743  0:000    9. 8AFEC000: 'BOOT', '84BA', Rev: 1, Len: 40
+5:743  0:000    10. 8AFEB000: 'DBGP', 'SLIC-MPC', Rev: 1, Len: 52
+5:743  0:000    11. 8AFE9000: 'HPET', '84BA', Rev: 1, Len: 56
+5:743  0:000    12. 8AFE8000: 'APIC', '84BA', Rev: 3, Len: 300
+5:743  0:000    13. 8AFE7000: 'MCFG', '84BA', Rev: 1, Len: 60
+5:743  0:000    14. 8AFC2000: 'SSDT', '84BA', Rev: 2, Len: 491
+5:743  0:000    15. 8AFC1000: 'SSDT', '84BA', Rev: 1, Len: 218
+5:743  0:000    16. 8AFC0000: 'LPIT', '84BA', Rev: 1, Len: 148
+5:743  0:000    17. 8AFBF000: 'WSMT', '84BA', Rev: 1, Len: 40
+5:743  0:000    18. 8AFBE000: 'SSDT', '84BA', Rev: 2, Len: 671
+5:743  0:000    19. 8AFBD000: 'SSDT', '84BA', Rev: 1, Len: 838
+5:743  0:000    20. 8AFB8000: 'SSDT', '84BA', Rev: 2, Len: 12290
+5:743  0:000    21. 8AFB7000: 'SSDT', '84BA', Rev: 2, Len: 1310
+5:743  0:000    22. 8AFB6000: 'DBGP', 'SLIC-MPC', Rev: 1, Len: 52
+5:743  0:000    23. 8AFB5000: 'DBG2', '84BA', Rev: 0, Len: 84
+5:743  0:000    24. 8AFB3000: 'SSDT', '84BA', Rev: 2, Len: 4838
+5:743  0:000    25. 8AFB1000: 'SSDT', '84BA', Rev: 2, Len: 6062
+5:743  0:000    26. 8AFAD000: 'SSDT', '84BA', Rev: 1, Len: 14894
+5:743  0:000    27. 8AFA8000: 'SSDT', '84BA', Rev: 2, Len: 20234
+5:743  0:000    28. 8AFA7000: 'SSDT', '84BA', Rev: 2, Len: 1380
+5:743  0:000    29. 8AFA6000: 'DMAR', '84BA', Rev: 1, Len: 168
+5:743  0:000    30. 8AFA5000: 'NHLT', '84BA', Rev: 0, Len: 45
+5:743  0:000    31. 8AFA4000: 'FPDT', 'SLIC-MPC', Rev: 1, Len: 68
+5:743  0:000    32. 8AFA3000: 'BGRT', '84BA', Rev: 1, Len: 56
